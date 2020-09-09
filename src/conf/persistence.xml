@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="colegiosPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Entidades.Ano</class>
+    <class>Entidades.Colegio</class>
+    <class>Entidades.Curso</class>
+    <class>Entidades.Publicacion</class>
+    <class>Entidades.Periodo</class>
+    <class>Entidades.Matriculaclase</class>
+    <class>Entidades.Area</class>
+    <class>Entidades.Clase</class>
+    <class>Entidades.Grado</class>
+    <class>Entidades.Asistencia</class>
+    <class>Entidades.Seccion</class>
+    <class>Entidades.Horario</class>
+    <class>Entidades.Tipopago</class>
+    <class>Entidades.Archivo</class>
+    <class>Entidades.Nivel</class>
+    <class>Entidades.Agendaalumno</class>
+    <class>Entidades.Admin</class>
+    <class>Entidades.Matricula</class>
+    <class>Entidades.Usuario</class>
+    <class>Entidades.Pago</class>
+    <class>Entidades.Alumnoapoderado</class>
+    <class>Entidades.Apoderado</class>
+    <class>Entidades.Profesor</class>
+    <class>Entidades.Agendaclase</class>
+    <class>Entidades.Detallepago</class>
+    <class>Entidades.Alumno</class>
+    <class>Entidades.Notas</class>
+    <class>Entidades.Calificacion</class>
+    <class>Entidades.Subcalificacion</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/colegio2?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
